@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Nirmal_Dotnet\\Backend_N\\API_Login\\API_Login.csproj": {}
+    "D:\\New folder\\Backend_Dot\\API_Login\\API_Login.csproj": {}
   },
   "projects": {
-    "D:\\Nirmal_Dotnet\\Backend_N\\API_Login\\API_Login.csproj": {
+    "D:\\New folder\\Backend_Dot\\API_Login\\API_Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Nirmal_Dotnet\\Backend_N\\API_Login\\API_Login.csproj",
+        "projectUniqueName": "D:\\New folder\\Backend_Dot\\API_Login\\API_Login.csproj",
         "projectName": "API_Login",
-        "projectPath": "D:\\Nirmal_Dotnet\\Backend_N\\API_Login\\API_Login.csproj",
+        "projectPath": "D:\\New folder\\Backend_Dot\\API_Login\\API_Login.csproj",
         "packagesPath": "C:\\Users\\Helios\\.nuget\\packages\\",
-        "outputPath": "D:\\Nirmal_Dotnet\\Backend_N\\API_Login\\obj\\",
+        "outputPath": "D:\\New folder\\Backend_Dot\\API_Login\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Helios\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
             },

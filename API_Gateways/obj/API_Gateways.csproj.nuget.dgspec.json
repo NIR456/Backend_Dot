@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Nirmal_Dotnet\\Backend_N\\API_Gateways\\API_Gateways.csproj": {}
+    "D:\\New folder\\Backend_Dot\\API_Gateways\\API_Gateways.csproj": {}
   },
   "projects": {
-    "D:\\Nirmal_Dotnet\\Backend_N\\API_Gateways\\API_Gateways.csproj": {
+    "D:\\New folder\\Backend_Dot\\API_Gateways\\API_Gateways.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Nirmal_Dotnet\\Backend_N\\API_Gateways\\API_Gateways.csproj",
+        "projectUniqueName": "D:\\New folder\\Backend_Dot\\API_Gateways\\API_Gateways.csproj",
         "projectName": "API_Gateways",
-        "projectPath": "D:\\Nirmal_Dotnet\\Backend_N\\API_Gateways\\API_Gateways.csproj",
+        "projectPath": "D:\\New folder\\Backend_Dot\\API_Gateways\\API_Gateways.csproj",
         "packagesPath": "C:\\Users\\Helios\\.nuget\\packages\\",
-        "outputPath": "D:\\Nirmal_Dotnet\\Backend_N\\API_Gateways\\obj\\",
+        "outputPath": "D:\\New folder\\Backend_Dot\\API_Gateways\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Helios\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
