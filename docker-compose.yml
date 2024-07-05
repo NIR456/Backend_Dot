@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  api_user:
+    image: ${DOCKER_REGISTRY-}apiuser
+    build:
+      context: .
+      dockerfile: API_User/Dockerfile
+
+  api_login:
+    image: ${DOCKER_REGISTRY-}apilogin
+    build:
+      context: .
+      dockerfile: API_Login/Dockerfile
+
+
+  api_gateways:
+    image: ${DOCKER_REGISTRY-}apigateways
+    build:
+      context: .
+      dockerfile: API_Gateways/Dockerfile
+
