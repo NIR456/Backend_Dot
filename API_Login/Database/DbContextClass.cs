@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using API_Login.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace API_Login.Database
 {
@@ -10,13 +12,20 @@ namespace API_Login.Database
         {
             Configuration = configuration;
         }
+
+        public DbSet<LoginUser_mdl> LoginUser { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
           
         }
 
-       // public DbSet<Product> Products { get; set; }
+        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
 
     }
 }
