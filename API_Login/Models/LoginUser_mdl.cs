@@ -14,5 +14,9 @@
         public string Department { get; set; }
         public string CreatedBy {  get; set; }
         public DateTime Created { get; set; }
+        public DateTime? LastModifiedBy { get; set; }
+        public int? RoleId { get; set; }
+        public long? RoleKey { get; set; }
+        public AdminRole_mdl AdminRole { get; set; }
     }
 }

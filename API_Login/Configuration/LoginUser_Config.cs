@@ -22,6 +22,9 @@ namespace API_Login.Configuration
             _ = builder.Property(x => x.Department).HasColumnName("Department").HasColumnType("varchar(250)");
             _ = builder.Property(x => x.CreatedBy).HasColumnName("CreatedBy").HasColumnType("varchar(250)");
             _ = builder.Property(x => x.Created).HasColumnName("Created").HasColumnType("datetime");
+            _ = builder.Property(x => x.LastModifiedBy).HasColumnName("LastModifiedBy").HasColumnType("datetime");
+            _ = builder.HasOne(x=> x.AdminRole).WithMany(x=> x.LoginUsers).HasForeignKey(x => x.RoleId);
+            _ = builder.Property(x => x.RoleKey).HasColumnName("RoleKey").HasColumnType("BIGINT");
         }
 
     }
