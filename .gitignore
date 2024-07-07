@@ -25,31 +25,30 @@ packages
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
-*.log
-*.tlog
-*.vspscc
-*.vssscc
+*.log/
+*.tlog/
+*.vspscc/
+*.vssscc/
 .builds
-*.pidb
-*.svclog
-*.scc
+*.pidb/
+*.svclog/
+*.scc/
 
 
 
-*.dll
-*.pdb
-*.cache
-*.suo
+*.cache/
+*.suo/
 
-*.pdf
-*.docx
-*.rar
-*.pdf
-*.PNG
-*.dll
-*.exe
-*.pdb
-*.txt
+*.pdf/
+*.docx/
+*.rar/
+*.pdf/
+*.PNG/
+*.dll/
+*.exe/
+*.pdb/
+*.txt/
+*.yml/
 
 # Click-Once directory
 publish/
@@ -75,6 +74,4 @@ PublishScripts/
 [Bb]in/
 [Oo]bj/
 
-# cache
-*.cache
-*.yml
+
