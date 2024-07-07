@@ -22,3 +22,34 @@ D:\Nirmal_Dotnet\Backend_N\bin\Debug\API_User.pdb
 D:\Nirmal_Dotnet\Backend_N\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\Nirmal_Dotnet\Backend_N\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\Nirmal_Dotnet\Backend_N\obj\Debug\docker-c.35A3FFBA.Up2Date
+D:\New folder\Backend_Dot\bin\Debug\API_Gateways.deps.json
+D:\New folder\Backend_Dot\bin\Debug\API_Gateways.runtimeconfig.json
+D:\New folder\Backend_Dot\bin\Debug\appsettings.Development.json
+D:\New folder\Backend_Dot\bin\Debug\appsettings.json
+D:\New folder\Backend_Dot\bin\Debug\Ocelot.json
+D:\New folder\Backend_Dot\bin\Debug\API_Gateways.exe
+D:\New folder\Backend_Dot\bin\Debug\API_Login.deps.json
+D:\New folder\Backend_Dot\bin\Debug\API_Login.runtimeconfig.json
+D:\New folder\Backend_Dot\bin\Debug\API_Login.exe
+D:\New folder\Backend_Dot\bin\Debug\API_User.deps.json
+D:\New folder\Backend_Dot\bin\Debug\API_User.runtimeconfig.json
+D:\New folder\Backend_Dot\bin\Debug\API_User.exe
+D:\New folder\Backend_Dot\bin\Debug\API_Gateways.dll
+D:\New folder\Backend_Dot\bin\Debug\API_Login.dll
+D:\New folder\Backend_Dot\bin\Debug\API_User.dll
+D:\New folder\Backend_Dot\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\New folder\Backend_Dot\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\New folder\Backend_Dot\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\New folder\Backend_Dot\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\New folder\Backend_Dot\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\New folder\Backend_Dot\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\Backend_Dot\bin\Debug\Microsoft.OpenApi.dll
+D:\New folder\Backend_Dot\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\Backend_Dot\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\New folder\Backend_Dot\bin\Debug\Microsoft.Identity.Client.dll
+D:\New folder\Backend_Dot\bin\Debug\API_Gateways.pdb
+D:\New folder\Backend_Dot\bin\Debug\API_Login.pdb
+D:\New folder\Backend_Dot\bin\Debug\API_User.pdb
+D:\New folder\Backend_Dot\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\New folder\Backend_Dot\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\New folder\Backend_Dot\obj\Debug\docker-c.35A3FFBA.Up2Date

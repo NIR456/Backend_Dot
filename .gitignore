@@ -46,6 +46,10 @@ packages
 *.rar
 *.pdf
 *.PNG
+*.dll
+*.exe
+*.pdb
+*.txt
 
 # Click-Once directory
 publish/

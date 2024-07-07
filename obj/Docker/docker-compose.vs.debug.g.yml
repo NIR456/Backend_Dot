@@ -3,7 +3,7 @@ version: '3.4'
 services:
   api_gateways:
     image: apigateways:dev
-    container_name: "API_Gateways_1"
+    container_name: "API_Gateways"
     build:
       args:
         BUILD_CONFIGURATION: Debug
@@ -16,8 +16,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\Nirmal_Dotnet\Backend_N\API_Gateways:/app:rw
-      - D:\Nirmal_Dotnet\Backend_N:/src:rw
+      - D:\New folder\Backend_Dot\API_Gateways:/app:rw
+      - D:\New folder\Backend_Dot:/src:rw
       - C:\Users\Helios\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Helios\.nuget\packages:/.nuget/packages:ro
       - C:\Users\Helios\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
@@ -36,7 +36,7 @@ services:
     tty: true
   api_login:
     image: apilogin:dev
-    container_name: "API_Login_1"
+    container_name: "API_Login"
     build:
       args:
         BUILD_CONFIGURATION: Debug
@@ -49,8 +49,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\Nirmal_Dotnet\Backend_N\API_Login:/app:rw
-      - D:\Nirmal_Dotnet\Backend_N:/src:rw
+      - D:\New folder\Backend_Dot\API_Login:/app:rw
+      - D:\New folder\Backend_Dot:/src:rw
       - C:\Users\Helios\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Helios\.nuget\packages:/.nuget/packages:ro
       - C:\Users\Helios\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
@@ -70,7 +70,7 @@ services:
 
   api_user:
     image: apiuser:dev
-    container_name: "API_User_1"
+    container_name: "API_User"
     build:
       args:
         BUILD_CONFIGURATION: Debug
@@ -83,8 +83,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\Nirmal_Dotnet\Backend_N\API_User:/app:rw
-      - D:\Nirmal_Dotnet\Backend_N:/src:rw
+      - D:\New folder\Backend_Dot\API_User:/app:rw
+      - D:\New folder\Backend_Dot:/src:rw
       - C:\Users\Helios\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Helios\.nuget\packages:/.nuget/packages:ro
       - C:\Users\Helios\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro

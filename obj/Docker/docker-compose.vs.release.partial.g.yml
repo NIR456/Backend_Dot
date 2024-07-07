@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   api_gateways:
-    container_name: "API_Gateways_1"
+    container_name: "API_Gateways"
     build:
       args:
         BUILD_CONFIGURATION: Release
@@ -27,7 +27,7 @@ services:
       com.microsoft.visual-studio.project-name: "API_Gateways"
     tty: true
   api_login:
-    container_name: "API_Login_1"
+    container_name: "API_Login"
     build:
       args:
         BUILD_CONFIGURATION: Release
@@ -53,7 +53,7 @@ services:
     tty: true
 
   api_user:
-    container_name: "API_User_1"
+    container_name: "API_User"
     build:
       args:
         BUILD_CONFIGURATION: Release

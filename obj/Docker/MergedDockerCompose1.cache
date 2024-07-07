@@ -1,8 +1,8 @@
-name: dockercompose5169883840935738998
+name: dockercompose7877836200889699357
 services:
   api_gateways:
     build:
-      context: D:\Nirmal_Dotnet\Backend_N
+      context: D:\New folder\Backend_Dot
       dockerfile: API_Gateways/Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
@@ -54,12 +54,12 @@ services:
         bind:
           create_host_path: true
       - type: bind
-        source: D:\Nirmal_Dotnet\Backend_N\API_Gateways
+        source: D:\New folder\Backend_Dot\API_Gateways
         target: /app
         bind:
           create_host_path: true
       - type: bind
-        source: D:\Nirmal_Dotnet\Backend_N
+        source: D:\New folder\Backend_Dot
         target: /src
         bind:
           create_host_path: true
@@ -100,7 +100,7 @@ services:
           create_host_path: true
   api_login:
     build:
-      context: D:\Nirmal_Dotnet\Backend_N
+      context: D:\New folder\Backend_Dot
       dockerfile: API_Login/Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
@@ -152,12 +152,12 @@ services:
         bind:
           create_host_path: true
       - type: bind
-        source: D:\Nirmal_Dotnet\Backend_N\API_Login
+        source: D:\New folder\Backend_Dot\API_Login
         target: /app
         bind:
           create_host_path: true
       - type: bind
-        source: D:\Nirmal_Dotnet\Backend_N
+        source: D:\New folder\Backend_Dot
         target: /src
         bind:
           create_host_path: true
@@ -198,7 +198,7 @@ services:
           create_host_path: true
   api_user:
     build:
-      context: D:\Nirmal_Dotnet\Backend_N
+      context: D:\New folder\Backend_Dot
       dockerfile: API_User/Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
@@ -250,12 +250,12 @@ services:
         bind:
           create_host_path: true
       - type: bind
-        source: D:\Nirmal_Dotnet\Backend_N\API_User
+        source: D:\New folder\Backend_Dot\API_User
         target: /app
         bind:
           create_host_path: true
       - type: bind
-        source: D:\Nirmal_Dotnet\Backend_N
+        source: D:\New folder\Backend_Dot
         target: /src
         bind:
           create_host_path: true
@@ -296,4 +296,4 @@ services:
           create_host_path: true
 networks:
   default:
-    name: dockercompose5169883840935738998_default
+    name: dockercompose7877836200889699357_default

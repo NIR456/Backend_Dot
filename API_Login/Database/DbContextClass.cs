@@ -13,15 +13,16 @@ namespace API_Login.Database
             Configuration = configuration;
         }
 
-        public DbSet<LoginUser_mdl> LoginUser { get; set; }
+        
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
           
         }
+        public DbSet<LoginUser_mdl> LoginUser { get; set; }
 
-        
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
