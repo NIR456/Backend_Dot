@@ -12,6 +12,7 @@ namespace API_Login.Configuration
         _= builder.Property(x => x.RoleId).HasColumnName("RoleId").HasColumnType("int").IsRequired().ValueGeneratedOnAdd();
         _ = builder.HasKey(x => x.RoleId);
         _ = builder.Property(x => x.RoleName).HasColumnName("RoleName").HasColumnType("varchar(250)").IsRequired();
+        _ = builder.Property(x => x.RoleDescription).HasColumnName("RoleDescription").HasColumnType("varchar(250)").IsRequired();
         _ = builder.Property(x => x.IsDeleted).HasColumnName("IsDeleted").HasColumnType("bit").IsRequired();
         }
     }
