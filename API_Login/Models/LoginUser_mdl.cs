@@ -15,7 +15,7 @@
         public string CreatedBy {  get; set; }
         public DateTime Created { get; set; }
         public DateTime? LastModifiedBy { get; set; }
-        public int? RoleId { get; set; }
+        public int RoleId { get; set; }
         public long? RoleKey { get; set; }
         public virtual AdminRole_mdl AdminRole { get; set; }
     }

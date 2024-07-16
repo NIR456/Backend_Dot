@@ -1,8 +1,11 @@
 using API_Login.Database;
+using API_Login.IServices;
+using API_Login.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<ILoginServices, LoginServices>();
 builder.Services.AddDbContext<DbContextClass>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

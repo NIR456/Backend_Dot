@@ -32,6 +32,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="Migrations\" />
     <Folder Include="IServices\" />
+    <Folder Include="Models\ResponseModel\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
