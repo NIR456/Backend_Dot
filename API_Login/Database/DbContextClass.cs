@@ -20,13 +20,14 @@ namespace API_Login.Database
            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
           
         }
-        public DbSet<LoginUser_mdl> LoginUser { get; set; }
-
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
+
+        public DbSet<LoginUser_mdl> LoginUser { get; set; }
+        public DbSet<AdminRole_mdl> AdminRole { get; set; }
 
     }
 }
