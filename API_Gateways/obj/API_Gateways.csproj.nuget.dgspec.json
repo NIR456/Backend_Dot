@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[23.3.3, )"
             },
+            "Ocelot.Provider.Eureka": {
+              "target": "Package",
+              "version": "[23.3.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

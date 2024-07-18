@@ -120,6 +120,7 @@ D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\API_Gateways.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\API_Gateways.pdb
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Azure.Core.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Azure.Identity.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Consul.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\FluentValidation.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Humanizer.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\IPAddressRange.dll
@@ -154,6 +155,18 @@ D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Ocelot.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Ocelot.Provider.Consul.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Ocelot.Provider.Eureka.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Common.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Common.Abstractions.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Common.Http.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Connector.Abstractions.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Connector.ConnectorBase.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Discovery.Abstractions.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Discovery.ClientBase.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Discovery.ClientCore.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Discovery.Eureka.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Steeltoe.Extensions.Configuration.Abstractions.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -167,6 +180,7 @@ D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\System.Configuration.Con
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\System.Drawing.Common.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\System.Memory.Data.dll
+D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\System.Runtime.Caching.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 D:\New folder\Backend_Dot\API_Gateways\bin\Debug\net8.0\System.Security.Permissions.dll

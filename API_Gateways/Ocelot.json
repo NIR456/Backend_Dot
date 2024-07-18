@@ -49,15 +49,14 @@
       "ReRoutesCaseSensitive": false,
       "DangerousAcceptAnyServerCertificateValidator": true
     }
-  ],
-  "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:7289/",
-    //"RequestIdKey": "OcRequestId",
-    "ServiceDiscoveryProvider": {
-      "Scheme": "https",
-      "Host": "localhost",
-      "Port": "7289",
-      "Type": "Consul"
-    }
-  }
+  ]
+  //"GlobalConfiguration": {
+  //  "BaseUrl": "https://localhost:7289/",
+  //  "ServiceDiscoveryProvider": {
+  //    "Scheme": "https",
+  //    "Host": "localhost",
+  //    "Port": "7289",
+  //    "Type": "Consul"
+  //  }
+  //}
 }

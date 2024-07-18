@@ -23,8 +23,8 @@ namespace API_Login.Services
             Response response = new();
 
             try
-            {
-                LoginUser_mdl userlogin = await _dbContext.LoginUser.FirstOrDefaultAsync(x => x.UserName == username).ConfigureAwait(false);
+            {  // FirstOrDefaultAsync
+                LoginUser_mdl userlogin = await _dbContext.LoginUser.FirstOrDefaultAsync(x => x.UserName == username).ConfigureAwait(true);
 
                 if (userlogin != null)
                 {
